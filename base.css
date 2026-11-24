@@ -112,6 +112,7 @@ button { font-family: inherit; }
 }
 .nav li a:hover { color: var(--pink); }
 .chev { width: calc(28 * var(--k)); height: calc(28 * var(--k)); margin-left: calc(-3 * var(--k)); }
+.nav .sub li { position: static; left: auto; top: auto; }
 
 .sub {
   position: absolute;
@@ -204,7 +205,7 @@ button { font-family: inherit; }
   .nav li { position: static; }
   .nav li a { height: calc(40 * var(--k)); font-size: calc(var(--nav-size) * var(--k)); color: var(--nav-color); }
   .chev { width: calc(10 * var(--k)); height: calc(10 * var(--k)); margin-left: calc(4 * var(--k)); }
-  .has-sub { position: relative; }
+  .nav li.has-sub { position: relative; left: auto; top: auto; }
   .sub { left: 0; min-width: calc(200 * var(--k)); border-radius: calc(10 * var(--k)); }
   .sub a { padding: calc(10 * var(--k)) calc(16 * var(--k)); font-size: calc(14 * var(--k)) !important; }
 
