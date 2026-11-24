@@ -1,0 +1,52 @@
+/* LAURA · Nosotros (diseño 1920 px). Coordenadas relativas al inicio de <main> (y = 190) */
+.nos { position: relative; height: calc(2640 * var(--k)); color: var(--ink); }
+.nos > * { position: absolute; }
+.nos h1 { left: 0; right: 0; top: calc(30 * var(--k)); text-align: center; font-size: calc(40 * var(--k)); font-weight: 700; letter-spacing: calc(5.6 * var(--k)); line-height: normal; }
+.nos-sub { left: calc(var(--ox) + calc(612 * var(--k))); top: calc(80 * var(--k)); width: calc(696 * var(--k)); text-align: center; font-size: calc(20 * var(--k)); font-weight: 300; line-height: normal; }
+.nos-hero { left: calc(var(--ox) + calc(30 * var(--k))); top: calc(160 * var(--k)); width: calc(1860 * var(--k)); height: calc(650 * var(--k)); object-fit: cover; border-radius: calc(20 * var(--k)); }
+.nos-lead { left: calc(var(--ox) + calc(601 * var(--k))); top: calc(838 * var(--k)); width: calc(717 * var(--k)); text-align: center; font-size: calc(20 * var(--k)); font-weight: 300; line-height: normal; }
+
+.nos-who { left: 0; right: 0; top: calc(940 * var(--k)); height: calc(650 * var(--k)); background: var(--ink); color: #fff; position: absolute; }
+.nos-who > * { position: absolute; }
+.nos-who h2 { left: 0; right: 0; top: calc(36 * var(--k)); text-align: center; font-size: calc(24 * var(--k)); font-weight: 700; line-height: normal; }
+.nos-who p { left: calc(var(--ox) + calc(470 * var(--k))); top: calc(90 * var(--k)); width: calc(979 * var(--k)); text-align: center; font-size: calc(20 * var(--k)); font-weight: 300; line-height: normal; }
+.nos-who img { left: calc(var(--ox) + calc(343 * var(--k))); top: calc(193 * var(--k)); width: calc(1234 * var(--k)); height: calc(457 * var(--k)); object-fit: cover; border-radius: calc(20 * var(--k)) calc(20 * var(--k)) 0 0; }
+
+.nos-diff { left: 0; right: 0; top: calc(1626 * var(--k)); text-align: center; font-size: calc(24 * var(--k)); font-weight: 700; line-height: normal; }
+.nos-card { top: calc(1694 * var(--k)); width: calc(300 * var(--k)); height: calc(300 * var(--k)); border-radius: calc(20 * var(--k)); background: var(--teal); color: #fff; text-align: center; }
+.nos-card.c1 { left: calc(var(--ox) + calc(373 * var(--k))); } .nos-card.c2 { left: calc(var(--ox) + calc(810 * var(--k))); } .nos-card.c3 { left: calc(var(--ox) + calc(1237 * var(--k))); }
+.nos-card svg { position: absolute; left: calc(100 * var(--k)); top: calc(66 * var(--k)); width: calc(100 * var(--k)); height: calc(100 * var(--k)); }
+.nos-card h3 { position: absolute; left: 0; right: 0; top: calc(209 * var(--k)); font-size: calc(14 * var(--k)); font-weight: 400; line-height: normal; }
+.nos-card p { position: absolute; left: 0; right: 0; top: calc(232 * var(--k)); font-size: calc(14 * var(--k)); font-weight: 300; line-height: normal; }
+
+.nos-band { left: 0; top: calc(2110 * var(--k)); width: calc(1234 * var(--k)); height: calc(460 * var(--k)); background: var(--ink); border-radius: 0 calc(20 * var(--k)) calc(20 * var(--k)) 0; }
+.nos-band img { position: absolute; top: calc(20 * var(--k)); width: calc(420 * var(--k)); height: calc(420 * var(--k)); object-fit: cover; border-radius: calc(20 * var(--k)); }
+.nos-band .i1 { left: calc(var(--ox) + calc(240 * var(--k))); } .nos-band .i2 { left: calc(var(--ox) + calc(680 * var(--k))); } .nos-band .i3 { left: calc(var(--ox) + calc(1120 * var(--k))); }
+.nos-end { left: 0; right: 0; top: calc(2586 * var(--k)); text-align: center; font-size: calc(24 * var(--k)); font-weight: 700; line-height: normal; }
+
+@media (max-width: 1000px) {
+  .nos { height: auto; padding: calc(40 * var(--k)) calc(32 * var(--k)) calc(50 * var(--k)); display: flex; flex-direction: column; align-items: center; gap: calc(24 * var(--k)); }
+  .nos > * { position: static; }
+  .nos h1 { font-size: calc(36 * var(--k)); }
+  .nos-sub, .nos-lead { width: auto; font-size: calc(18 * var(--k)); }
+  .nos-hero { width: 100%; height: auto; aspect-ratio: 1860/650; }
+  .nos-who { position: static; width: calc(100% + calc(64 * var(--k))); margin: calc(10 * var(--k)) calc(-32 * var(--k)) 0; height: auto; padding: calc(40 * var(--k)) calc(32 * var(--k)) 0; display: flex; flex-direction: column; gap: calc(20 * var(--k)); align-items: center; }
+  .nos-who > * { position: static; }
+  .nos-who p { width: auto; font-size: calc(18 * var(--k)); }
+  .nos-who img { width: 100%; height: auto; aspect-ratio: 1234/457; margin-top: calc(10 * var(--k)); }
+  .nos-diff { margin-top: calc(20 * var(--k)); font-size: calc(24 * var(--k)); }
+  .nos-card { width: min(100%, calc(300 * var(--k))); height: calc(300 * var(--k)); position: relative !important; left: auto !important; }
+  .nos-card svg { left: 50%; margin-left: calc(-50 * var(--k)); }
+  .nos-card h3, .nos-card p { font-size: calc(15 * var(--k)); }
+  .nos-band { position: static; width: 100%; height: auto; background: none; display: flex; gap: calc(12 * var(--k)); }
+  .nos-band img { position: static; flex: 1; min-width: 0; height: auto; aspect-ratio: 1; }
+  .nos-end { font-size: calc(20 * var(--k)); padding: 0 calc(10 * var(--k)); }
+}
+@media (max-width: 600px) {
+  .nos { padding: calc(30 * var(--k)) calc(16 * var(--k)) calc(40 * var(--k)); }
+  .nos h1 { font-size: calc(30 * var(--k)); letter-spacing: calc(3 * var(--k)); }
+  .nos-who { width: calc(100% + calc(32 * var(--k))); margin: calc(10 * var(--k)) calc(-16 * var(--k)) 0; padding: calc(30 * var(--k)) calc(16 * var(--k)) 0; }
+  .nos-band { flex-direction: column; }
+  .nos-band img { flex: none; width: 100%; }
+  .nos-end { font-size: calc(18 * var(--k)); }
+}

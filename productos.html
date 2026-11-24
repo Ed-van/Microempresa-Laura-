@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Productos | Laura</title>
+  <meta name="description" content="Todos los productos personalizados en MDF de Laura.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lato:wght@300;400;700;900&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+
+  <!-- Barra de promoción -->
+  <div class="promo"><p>Juego de Presentes para Tesis a 150 Bs</p></div>
+
+  <!-- Encabezado -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Laura, inicio">
+      <img src="img/logo.png" alt="Laura" width="115" height="88">
+    </a>
+
+    <div class="icons">
+      <a href="#" aria-label="Mi cuenta" class="ic ic--user">
+        <svg viewBox="0 0 35 40" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"><circle cx="17.5" cy="11" r="8.2"/><path d="M4 37v-3.500c0-5.200 4.300-9 9.500-9h8c5.200 0 9.500 3.800 9.500 9V37z"/></svg>
+      </a>
+      <a href="#" aria-label="Favoritos" class="ic ic--heart">
+        <svg viewBox="0 0 41 41" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linejoin="round"><path d="M20.500 35.500S4 25 4 14.600A8.600 8.600 0 0 1 20.500 11a8.600 8.600 0 0 1 16.500 3.600C37 25 20.500 35.500 20.500 35.500z"/></svg>
+      </a>
+      <a href="https://wa.me/59173739984" aria-label="WhatsApp" class="ic ic--wa" target="_blank" rel="noopener">
+        <svg viewBox="0 0 35 40" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"><path d="M17.500 5a14 14 0 0 0-12 21.200L3.500 34l8-2A14 14 0 1 0 17.500 5z"/><path d="M12.500 13c0 6 4.800 10.800 10.800 10.800l1.600-2.600-3.200-1.600-1.600 1.300c-1.600-.6-3.200-2.200-3.800-3.800l1.300-1.600-1.600-3.200z" fill="currentColor" stroke="none"/></svg>
+      </a>
+    </div>
+
+    <nav class="nav" aria-label="Principal">
+      <ul class="nav__row">
+        <li class="has-sub" style="--x:564">
+          <a href="productos.html" aria-haspopup="true">PRODUCTOS
+            <svg class="chev" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 10l9 9 9-9"/></svg>
+          </a>
+          <!-- Edita estas categorías con las tuyas -->
+          <ul class="sub">
+            <li><a href="productos.html">Agendas</a></li>
+            <li><a href="productos.html">Llaveros</a></li>
+            <li><a href="productos.html">Cajas y recuerdos</a></li>
+            <li><a href="productos.html">Portalápices</a></li>
+          </ul>
+        </li>
+        <li style="--x:737"><a href="promociones.html">PROMOCIONES</a></li>
+      </ul>
+      <ul class="nav__row">
+        <li style="--x:911"><a href="a-tu-medida.html">A TÚ MEDIDA</a></li>
+        <li style="--x:1084"><a href="nosotros.html">NOSOTROS</a></li>
+        <li style="--x:1237"><a href="contactos.html">CONTACTOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="pr-top"></div>
+  <div class="crumb"><p><a href="productos.html">Productos /</a> <span>Todo</span></p></div>
+
+  <main>
+    <section class="pr-cats" aria-label="Categorías">
+      <a class="pr-cats__label" href="promociones.html">Ofertas</a>
+      <div class="pr-cats__track"><a href="categorias.html" aria-label="Categoría 1"><img src="img/cat-1.jpg" alt=""></a><a href="categorias.html" aria-label="Categoría 2"><img src="img/cat-2.jpg" alt=""></a><a href="categorias.html" aria-label="Categoría 3"><img src="img/cat-3.jpg" alt=""></a><a href="categorias.html" aria-label="Categoría 4"><img src="img/cat-4.jpg" alt=""></a><a href="categorias.html" aria-label="Categoría 5"><img src="img/cat-5.jpg" alt=""></a></div>
+      <button class="pr-arrow pr-arrow--l" type="button" aria-label="Anterior"><svg viewBox="0 0 10 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2L2 8l6 6"/></svg></button>
+      <button class="pr-arrow pr-arrow--r" type="button" aria-label="Siguiente"><svg viewBox="0 0 10 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2l6 6-6 6"/></svg></button>
+    </section>
+
+    <div class="pr-main">
+      <aside class="pr-side" aria-label="Filtros">
+        <p class="h" style="--x:30;--y:17">INICIO</p>
+        <p class="h h--m" style="--x:30;--y:45">Todo</p>
+        <hr style="--x:30;--y:79">
+        <p class="small" id="count" style="--x:30;--y:89">Resultados(8)</p>
+        <p class="h" style="--x:30;--y:135">Material</p>
+        <span class="chev2" style="--x:110;--y:137"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l6 6 6-6"/></svg></span>
+        <label class="pr-check" style="--x:30;--y:169"><input type="checkbox" checked><span>Trupan</span></label>
+        <label class="pr-check" style="--x:30;--y:200"><input type="checkbox" checked><span>Todo</span></label>
+        <p class="h" style="--x:30;--y:250">Color</p>
+        <span class="chev2" style="--x:84;--y:252"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l6 6 6-6"/></svg></span>
+        <label class="pr-check" style="--x:30;--y:284"><input type="checkbox"><span>Barniz</span></label>
+        <label class="pr-check" style="--x:30;--y:315"><input type="checkbox"><span>Madera</span></label>
+      </aside>
+
+      <div class="pr-content">
+        <div class="pr-bar">
+          <div class="pr-bar__sel"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7l6 6 6-6"/></svg><span>MDF TRUPAN</span></div>
+          <label class="pr-search"><input type="search" id="q" placeholder="" aria-label="Buscar productos"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="8.500" cy="8.500" r="5.800"/><path d="M13 13l5 5"/></svg></label>
+        </div>
+
+        <div class="pr-grid" id="grid">
+        <article class="pr-card" data-title="porta celular diseño play station xs">
+          <a href="descripcion.html" aria-label="Porta Celular diseño Play Station xs"><figure><img src="img/p-1.jpg" alt="Porta Celular diseño Play Station xs" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Porta Celular diseño Play Station xs</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 15</p>
+        </article>
+        <article class="pr-card" data-title="presente de llavero personalizado">
+          <a href="descripcion.html" aria-label="Presente de Llavero Personalizado"><figure><img src="img/p-2.jpg" alt="Presente de Llavero Personalizado" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Presente de Llavero Personalizado</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 5</p>
+        </article>
+        <article class="pr-card" data-title="presente de recuerdo personalizado para mamá">
+          <a href="descripcion.html" aria-label="Presente de recuerdo Personalizado para Mamá"><figure><img src="img/p-3.jpg" alt="Presente de recuerdo Personalizado para Mamá" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Presente de recuerdo Personalizado para Mamá</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 25</p>
+        </article>
+        <article class="pr-card" data-title="porta lapicero con logo personalizado">
+          <a href="descripcion.html" aria-label="Porta Lapicero con logo Personalizado"><figure><img src="img/p-4.jpg" alt="Porta Lapicero con logo Personalizado" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Porta Lapicero con logo Personalizado</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 15</p>
+        </article>
+        <article class="pr-card" data-title="recuerdo de boda personalizado">
+          <a href="descripcion.html" aria-label="Recuerdo de Boda Personalizado"><figure><img src="img/p-5.jpg" alt="Recuerdo de Boda Personalizado" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Recuerdo de Boda Personalizado</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 5</p>
+        </article>
+        <article class="pr-card" data-title="recuerdo de caja personalizada">
+          <a href="descripcion.html" aria-label="Recuerdo de caja Personalizada"><figure><img src="img/p-6.jpg" alt="Recuerdo de caja Personalizada" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Recuerdo de caja Personalizada</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 35</p>
+        </article>
+        <article class="pr-card" data-title="tapa personalizada de cuadernillo">
+          <a href="descripcion.html" aria-label="Tapa Personalizada de cuadernillo"><figure><img src="img/p-8.jpg" alt="Tapa Personalizada de cuadernillo" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Tapa Personalizada de cuadernillo</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 17</p>
+        </article>
+        <article class="pr-card" data-title="porta lapicero con logo personalizado">
+          <a href="descripcion.html" aria-label="Porta Lapicero con logo Personalizado"><figure><img src="img/p-7.jpg" alt="Porta Lapicero con logo Personalizado" loading="lazy"></figure></a>
+          <button class="pr-fav" type="button" aria-label="Añadir a favoritos" aria-pressed="false"><svg viewBox="0 0 24 24"><path d="M12 21s-8.500-5.400-8.500-11A4.800 4.800 0 0 1 12 7.400 4.800 4.800 0 0 1 20.500 10c0 5.600-8.500 11-8.500 11z" stroke-linejoin="round"/></svg></button>
+          <h3><a href="descripcion.html">Porta Lapicero con logo Personalizado</a></h3><p class="mk">MDF Trupan</p><p class="pr">Bs. 15</p>
+        </article>
+        </div>
+        <p class="pr-empty" id="empty" hidden>No encontramos productos con esa búsqueda.</p>
+
+        <div class="pr-pager"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4L6 10l6 6"/></svg><span>1</span><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4l6 6-6 6"/></svg></div>
+      </div>
+    </div>
+
+    <a class="pr-more" href="categorias.html"><img src="img/more-bg.jpg" alt=""><span>Descubre más aqui</span><strong>Mas Categorias</strong></a>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="f-left">
+      <img class="f-logo" src="img/logo-footer.png" alt="Laura" width="115" height="88">
+      <p class="f-contact">Contactanos</p>
+
+      <h4>SERVICIO AL CLIENTE</h4>
+      <p class="f-phones">
+        Atención: <a href="tel:+59173739984">73739984</a>
+      </p>
+
+      <h4 class="f-social-title">SIGUE NUESTRAS REDES</h4>
+      <div class="f-social">
+        <a href="https://wa.me/59173739984" aria-label="WhatsApp" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm5.200 14.100c-.2.600-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.9 2.100c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.200 1.400 2.500 1.500.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.700-.1l2 1c.3.100.5.200.5.300.1.200.1.700-.1 1.200z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100064565477271" aria-label="Facebook" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 1 0 1.200 19.900v-7H10.700V12h2.500V9.800c0-2.500 1.500-3.900 3.800-3.900 1.100 0 2.200.2 2.200.2v2.400h-1.300c-1.200 0-1.600.8-1.600 1.600V12h2.800l-.4 2.900h-2.300v7A10 10 0 0 0 12 2z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@laura.diseo.creac?_r=1&_t=ZS-9Bfyf0VDoto" aria-label="TikTok" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.600 2h-3.200v12.800a2.800 2.800 0 1 1-2.800-2.800c.3 0 .6 0 .8.100V8.800a6 6 0 1 0 5.200 5.900V8.300a7.200 7.200 0 0 0 4.200 1.300V6.400A4.200 4.200 0 0 1 16.600 2z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="f-right">
+      <h4>EXPLORA</h4>
+      <ul class="f-links">
+        <li><a href="a-tu-medida.html">A tu medida</a></li>
+        <li><a href="https://heyzine.com/flip-book/2a1867d2a5.html" data-catalog>Catálogo</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+      </ul>
+      <a class="f-mail" href="mailto:artecylauracreamosparati@gmail.com">artecylauracreamosparati@gmail.com</a>
+    </div>
+
+    <div class="f-legal">
+      <hr>
+      <p>© LAURA 2026. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="productos.js"></script>
+</body>
+</html>

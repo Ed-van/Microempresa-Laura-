@@ -1,0 +1,82 @@
+/* LAURA · Categorías (diseño 1920 px). Coordenadas relativas al inicio de <main> (y = 190) */
+.ct { position: relative; height: calc(1842 * var(--k)); }
+.ct > * { position: absolute; }
+.ct-banner { left: calc(50% - calc(617 * var(--k))); top: calc(20 * var(--k)); width: calc(1234 * var(--k)); height: calc(286 * var(--k)); border-radius: calc(20 * var(--k)); overflow: hidden; }
+.ct-banner img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ct-banner__copy { position: absolute; left: calc(234 * var(--k)); top: calc(119 * var(--k)); width: calc(424 * var(--k)); text-align: center; color: #000; }
+.ct-banner h2 { font-size: calc(24 * var(--k)); font-weight: 600; line-height: normal; }
+.ct-banner p { margin-top: calc(10 * var(--k)); font-size: calc(24 * var(--k)); font-weight: 300; line-height: normal; white-space: nowrap; margin-left: calc(-30 * var(--k)); margin-right: calc(-30 * var(--k)); }
+.ct-btn { display: flex; align-items: center; justify-content: center; margin: calc(20 * var(--k)) auto 0; width: calc(182 * var(--k)); height: calc(43 * var(--k)); background: var(--pink); color: #fff; border-radius: calc(20 * var(--k)); font-size: calc(20 * var(--k)); font-weight: 700; transition: filter .2s, transform .2s; }
+.ct-btn:hover { filter: brightness(.92); transform: translateY(-2px); }
+
+.ct-intro { left: 0; right: 0; top: calc(337 * var(--k)); text-align: center; color: #000; }
+.ct-intro h1 { font-size: calc(24 * var(--k)); font-weight: 600; line-height: normal; }
+.ct-intro p { font-size: calc(20 * var(--k)); font-weight: 400; line-height: normal; }
+
+.ct-grid { left: 0; right: 0; top: 0; height: 0; }
+.ct-grid .g { position: absolute; overflow: hidden; border: 1px solid var(--pink); border-radius: calc(20 * var(--k)); background: #fff; transition: transform .25s, box-shadow .25s; }
+.ct-grid .g:hover { transform: translateY(-4px); box-shadow: 0 calc(10 * var(--k)) calc(24 * var(--k)) rgba(0,0,0,.12); }
+.ct-grid .g img { width: 100%; height: 100%; object-fit: cover; }
+.g1 { left: calc(50% - calc(617 * var(--k))); top: calc(460 * var(--k)); width: calc(450 * var(--k)); height: calc(340 * var(--k)); }
+.g2 { left: calc(50% - calc(147 * var(--k))); top: calc(460 * var(--k)); width: calc(764 * var(--k)); height: calc(440 * var(--k)); }
+.g3 { left: calc(50% - calc(617 * var(--k))); top: calc(820 * var(--k)); width: calc(450 * var(--k)); height: calc(340 * var(--k)); }
+.g4 { left: calc(50% - calc(147 * var(--k))); top: calc(920 * var(--k)); width: calc(377 * var(--k)); height: calc(240 * var(--k)); }
+.g3 img { object-fit: contain; }
+.ct-more { position: absolute; left: calc(50% + calc(253 * var(--k))); top: calc(925 * var(--k)); width: calc(364 * var(--k)); color: #000; }
+.ct-more h2 { font-size: calc(48 * var(--k)); font-weight: 500; line-height: normal; margin-bottom: calc(5 * var(--k)); }
+.ct-more p { font-size: calc(20 * var(--k)); font-weight: 300; line-height: 1; color: var(--ink); }
+
+.ct-strip { left: calc(50% - calc(770 * var(--k))); top: calc(1245 * var(--k)); width: calc(1541 * var(--k)); height: calc(215 * var(--k)); }
+.ct-strip i { position: absolute; left: calc(151 * var(--k)); top: calc(85 * var(--k)); width: calc(1237 * var(--k)); height: calc(130 * var(--k)); background: var(--teal); border-radius: 0 0 calc(20 * var(--k)) calc(20 * var(--k)); }
+.ct-strip .s { position: absolute; overflow: hidden; border-radius: calc(20 * var(--k)); transition: transform .25s; }
+.ct-strip .s:hover { transform: translateY(-4px); }
+.ct-strip .s img { width: 100%; height: 100%; object-fit: cover; }
+.s1 { left: 0; top: calc(18 * var(--k)); width: calc(212 * var(--k)); height: calc(135 * var(--k)); }
+.s2 { left: calc(311 * var(--k)); top: calc(10 * var(--k)); width: calc(235 * var(--k)); height: calc(150 * var(--k)); }
+.s3 { left: calc(644 * var(--k)); top: 0; width: calc(251 * var(--k)); height: calc(170 * var(--k)); }
+.s4 { left: calc(995 * var(--k)); top: calc(10 * var(--k)); width: calc(235 * var(--k)); height: calc(150 * var(--k)); }
+.s5 { left: calc(1329 * var(--k)); top: calc(18 * var(--k)); width: calc(212 * var(--k)); height: calc(135 * var(--k)); }
+
+.ct-perks { left: 0; right: 0; top: calc(1531 * var(--k)); height: calc(243 * var(--k)); background: var(--ink); color: #fff; }
+.ct-perks__t { position: absolute; left: calc(50% - calc(770 * var(--k))); top: calc(87 * var(--k)); width: calc(466 * var(--k)); font-size: calc(24 * var(--k)); font-weight: 600; line-height: normal; }
+.perk { position: absolute; top: calc(38 * var(--k)); width: calc(268 * var(--k)); text-align: center; font-size: calc(24 * var(--k)); font-weight: 300; line-height: normal; }
+.perk svg { display: block; width: calc(110 * var(--k)); height: calc(110 * var(--k)); margin: 0 auto calc(0 * var(--k)); }
+.perk span { display: block; margin-top: calc(0 * var(--k)); }
+.p1 { left: calc(50% - calc(25 * var(--k))); } .p2 { left: calc(50% + calc(262 * var(--k))); } .p3 { left: calc(50% + calc(565 * var(--k))); top: calc(44 * var(--k)); }
+.footer { margin-top: 0; }
+
+@media (max-width: 1000px) {
+  .abs { position: static; }
+  .ct { height: auto; display: block; padding: calc(20 * var(--k)) calc(32 * var(--k)) calc(40 * var(--k)); }
+  .ct > * { position: relative; left: auto; top: auto; width: auto; }
+  .ct-banner { height: calc(200 * var(--k)); border-radius: calc(16 * var(--k)); }
+  .ct-banner__copy { position: absolute; left: 0; top: calc(44 * var(--k)); width: 56%; }
+  .ct-banner h2, .ct-banner p { font-size: calc(15 * var(--k)); margin: 0; }
+  .ct-banner p { margin-top: calc(4 * var(--k)); white-space: normal; }
+  .ct-btn { width: calc(130 * var(--k)); height: calc(34 * var(--k)); font-size: calc(14 * var(--k)); border-radius: calc(14 * var(--k)); margin-top: calc(12 * var(--k)); }
+  .ct-intro { margin: calc(26 * var(--k)) 0; }
+  .ct-intro h1 { font-size: calc(20 * var(--k)); } .ct-intro p { font-size: calc(14 * var(--k)); }
+  .ct-grid { height: auto; display: grid; grid-template-columns: 1fr 1fr; gap: calc(16 * var(--k)); }
+  .ct-grid .g { position: relative; left: auto; top: auto; width: auto; height: calc(240 * var(--k)); border-radius: calc(16 * var(--k)); }
+  .g2 { grid-column: 1 / -1; order: -1; height: calc(300 * var(--k)); }
+  .ct-more { grid-column: 1 / -1; position: relative; left: auto; top: auto; width: auto; margin: calc(10 * var(--k)) 0 calc(4 * var(--k)); }
+  .ct-more h2 { font-size: calc(30 * var(--k)); } .ct-more p { font-size: calc(15 * var(--k)); line-height: 1.3; }
+  .ct-strip { height: auto; display: flex; gap: calc(12 * var(--k)); overflow-x: auto; margin: calc(30 * var(--k)) calc(-32 * var(--k)) 0; padding: calc(10 * var(--k)) calc(32 * var(--k)); background: var(--teal); }
+  .ct-strip i { display: none; }
+  .ct-strip .s { position: relative; left: auto; top: auto; flex: none; width: calc(200 * var(--k)); height: calc(130 * var(--k)); border-radius: calc(14 * var(--k)); }
+  .ct-perks { height: auto; margin: calc(36 * var(--k)) calc(-32 * var(--k)) calc(-40 * var(--k)); padding: calc(36 * var(--k)) calc(32 * var(--k)); display: grid; grid-template-columns: repeat(3, 1fr); gap: calc(14 * var(--k)); }
+  .ct-perks > * { position: relative; left: auto; top: auto; width: auto; }
+  .ct-perks__t { grid-column: 1 / -1; font-size: calc(18 * var(--k)); margin-bottom: calc(10 * var(--k)); }
+  .perk { font-size: calc(15 * var(--k)); } .perk svg { width: calc(60 * var(--k)); height: calc(60 * var(--k)); margin-bottom: calc(6 * var(--k)); }
+  .footer { margin-top: 0; }
+}
+@media (max-width: 600px) {
+  .ct { padding: calc(16 * var(--k)) calc(20 * var(--k)) calc(30 * var(--k)); }
+  .ct-banner { height: calc(170 * var(--k)); }
+  .ct-grid { grid-template-columns: 1fr; }
+  .ct-grid .g, .g2 { height: calc(240 * var(--k)); }
+  .ct-strip { margin: calc(26 * var(--k)) calc(-20 * var(--k)) 0; padding: calc(10 * var(--k)) calc(20 * var(--k)); }
+  .ct-strip .s { width: calc(170 * var(--k)); height: calc(110 * var(--k)); }
+  .ct-perks { margin: calc(30 * var(--k)) calc(-20 * var(--k)) calc(-30 * var(--k)); padding: calc(30 * var(--k)) calc(20 * var(--k)); grid-template-columns: 1fr; text-align: center; }
+  .ct-perks__t { text-align: left; }
+}

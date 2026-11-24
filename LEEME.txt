@@ -1,0 +1,18 @@
+LAURA - Sitio web
+=================
+Cómo subirlo:
+1. Sube TODO el contenido de esta carpeta (no la carpeta en sí) a la raíz pública de tu servidor
+   (public_html, www o htdocs). index.html debe quedar en la raíz.
+2. Mantén la carpeta "img" junto a los archivos .html.
+3. Abre tu dominio: debe cargar index.html.
+
+Páginas: index, productos, a-tu-medida, categorias, descripcion, promociones, contactos, nosotros.
+Todas las rutas son relativas, funciona en cualquier dominio o subcarpeta.
+Las fuentes se cargan desde Google Fonts y el catálogo desde heyzine.com: se necesita internet.
+Para probar en tu PC: doble clic en index.html.
+
+Datos editables:
+- Teléfono / WhatsApp: 73739984 (buscar 59173739984 y 73739984 en los .html)
+- Correo: artecylauracreamosparati@gmail.com
+- Catálogo: https://heyzine.com/flip-book/2a1867d2a5.html (enlaces con data-catalog)
+- El formulario de contactos abre el correo del cliente (no necesita servidor).
